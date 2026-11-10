@@ -1,0 +1,20 @@
+# Reference kit (downloaded from make.fun, not part of the entry)
+kit/
+
+# Local scratch: fake env, request logs, cassettes
+out/
+
+# Never commit these: wallet keypair, pushed secrets, bundled transcripts
+wallet.json
+*.keypair.json
+.env
+.env.*
+transcripts.tar.gz
+cassette*/
+
+# Node
+node_modules/
+
+# Scaffolding, not part of the entry
+CLAUDE.md
+start-clean.ps1

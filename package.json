@@ -1,0 +1,12 @@
+{
+  "name": "makefun-jailbreak-vault",
+  "version": "1.1.0",
+  "description": "make.fun jailbreak-the-vault-01 entry: a scripted three-level ladder agent.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node main.ts",
+    "test": "node test/extract.test.mjs"
+  }
+}
